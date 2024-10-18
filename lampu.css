@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Sans-Serif;
+}
+
+.content{
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button{
+  padding: 15px;
+  border: none;
+  display: inline;
+  background-color: #dddd;
+  font-size: 10px;
+  color: darkblue;
+  border-radius: 20%;
+}
+
+img{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
